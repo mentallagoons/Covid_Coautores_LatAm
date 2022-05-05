@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Juan Manuel"
+  },
+  "text": {
+    "more": "Se muestra la red de coautores de artículos por países. La red está compuesta por 80 países; Estados Unidos y Brasil son los países que tienen\nmás colaboración con casi todos los países (79). Resulta interesante que Brasil pertenece a una partición en la que hay una fuerte\ninfluencia de países europeos, lo que da pauta a pensar que Brasil tuvo una fuerte cooperación con países de la Unión Europea.\nPor otro lado, Vietnam aparece en la partición en la que hay una fuerte influencia de paises americanos, sin embargo se necesita investigar\na mayor profundidad el por que de esta influencia.\nLa red está partida en 3; por un lado aparecen países europeos, en otra partición se presentan países americanos, y finalmente están los países\nasiáticos y de medio oriente.",
+    "intro": "Red de coautores de artículos sobre la covid-19 con una partición hecha por países.",
+    "title": "Covid research colaborartion LatAm"
+  },
+  "legend": {
+    "edgeLabel": "Colaboraciones",
+    "colorLabel": "Comunidades detectadas",
+    "nodeLabel": "Coautores_Covid_LatAm"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
